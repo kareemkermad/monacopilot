@@ -31,9 +31,9 @@ export class MistralHandler extends BaseProviderHandler<'mistral'> {
 			suffix: metadata.textAfterCursor,
 			stream: DEFAULT_COPILOT_STREAM,
 			top_p: DEFAULT_COPILOT_TOP_P,
-			temperature: DEFAULT_COPILOT_TEMPERATURE,
-			stop: DEFAULT_COPILOT_STOP_SEQUENCE,
-			max_tokens: DEFAULT_COPILOT_MAX_TOKENS,
+			temperature: metadata.temperature ?? DEFAULT_COPILOT_TEMPERATURE,
+			stop: metadata.stopCondition ?? DEFAULT_COPILOT_STOP_SEQUENCE,
+			max_tokens: metadata.maxTokens ?? DEFAULT_COPILOT_MAX_TOKENS,
 		}
 	}
 

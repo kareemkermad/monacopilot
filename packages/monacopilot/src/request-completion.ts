@@ -113,5 +113,8 @@ export const buildCompletionMetadata = ({
 		textBeforeCursor,
 		textAfterCursor,
 		cursorPosition: pos,
+		stopCondition: '\n',
+		maxTokens: 256,
+		temperature: 0.1,
 	}
 }

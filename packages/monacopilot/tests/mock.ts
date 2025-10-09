@@ -20,6 +20,9 @@ export const MOCK_COMPLETION_METADATA: CompletionMetadata = {
 	relatedFiles: [{ path: './utils.js', content: 'function test() {}' }],
 	textAfterCursor: 'console.log(',
 	textBeforeCursor: 'function hello() {',
+	stopCondition: '\n',
+	maxTokens: 256,
+	temperature: 0.1,
 }
 
 export const MOCK_COMPLETION_POS: CursorPosition = {

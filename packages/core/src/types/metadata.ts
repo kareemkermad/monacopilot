@@ -56,4 +56,16 @@ export interface BaseCopilotMetadata {
 		 */
 		readonly column: number
 	}
+	/**
+	 * The stop condition.
+	 */
+	stopCondition: string | string[] | undefined
+	/**
+	 * The maximum number of tokens.
+	 */
+	maxTokens: number | undefined
+	/**
+	 * The temperature of the model.
+	 */
+	temperature: number | undefined
 }
