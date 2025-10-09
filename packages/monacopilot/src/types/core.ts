@@ -86,6 +86,21 @@ export interface RegisterCompletionOptions {
 	 */
 	allowFollowUpCompletions?: boolean
 	/**
+	 * The debounce delay before submitting a request (in ms).
+	 * @default 400
+	 */
+	debounceDelayOnIdle?: number
+	/**
+	 * The debounce delay before submitting a request (in ms).
+	 * @default 120
+	 */
+	debounceDelayOnTyping?: number
+	/**
+	 * The debounce delay before submitting a request (in ms).
+	 * @default 0
+	 */
+	debounceDelayOnDemand?: number
+	/**
 	 * When an error occurs during the completion process or requests, Monacopilot will log it to the console by default
 	 * rather than throwing errors. This ensures smooth editing even when completions are unavailable.
 	 * You can provide this callback to handle errors yourself, which will disable the default console logging.

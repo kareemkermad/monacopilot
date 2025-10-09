@@ -93,9 +93,12 @@ export const processInlineCompletions = async ({
 				return response
 			},
 			{
-				[TriggerEnum.OnTyping]: DEFAULT_ON_TYPING_DEBOUNCE,
-				[TriggerEnum.OnIdle]: DEFAULT_ON_IDLE_DEBOUNCE,
-				[TriggerEnum.OnDemand]: DEFAULT_ON_DEMAND_DEBOUNCE,
+				[TriggerEnum.OnTyping]:
+					options.debounceDelayOnTyping ?? DEFAULT_ON_TYPING_DEBOUNCE,
+				[TriggerEnum.OnIdle]:
+					options.debounceDelayOnIdle ?? DEFAULT_ON_IDLE_DEBOUNCE,
+				[TriggerEnum.OnDemand]:
+					options.debounceDelayOnDemand ?? DEFAULT_ON_DEMAND_DEBOUNCE,
 			}[trigger],
 		)
 
