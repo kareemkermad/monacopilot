@@ -1,6 +1,6 @@
 {
 	"name": "docs",
-	"version": "1.2.7",
+	"version": "0.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -11,13 +11,11 @@
 	"keywords": ["monacopilot", "docs"],
 	"maintainers": [
 		{
-			"name": "Arshad Yaseen",
-			"email": "m@arshadyaseen.com",
-			"url": "https://arshadyaseen.com"
+			"name": "Kareem Kermad"
 		}
 	],
 	"license": "MIT",
-	"author": "Arshad Yaseen <m@arshadyaseen.com> (https://arshadyaseen.com)",
+	"author": "Kareem Kermad",
 	"devDependencies": {
 		"vitepress": "^1.6.3",
 		"vitepress-plugin-llms": "^1.5.1"

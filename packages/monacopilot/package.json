@@ -1,6 +1,6 @@
 {
-	"name": "monacopilot",
-	"version": "1.2.7",
+	"name": "@kareemkermad/monacopilot",
+	"version": "0.0.0",
 	"description": "AI auto-completion plugin for Monaco Editor",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
@@ -26,20 +26,18 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/arshad-yaseen/monacopilot.git"
+		"url": "git+https://github.com/kareemkermad/monacopilot.git"
 	},
 	"homepage": "https://monacopilot.dev",
 	"maintainers": [
 		{
-			"name": "Arshad Yaseen",
-			"email": "m@arshadyaseen.com",
-			"url": "https://arshadyaseen.com"
+			"name": "Kareem Kermad"
 		}
 	],
 	"license": "MIT",
-	"author": "Arshad Yaseen <m@arshadyaseen.com> (https://arshadyaseen.com)",
+	"author": "Kareem Kermad",
 	"dependencies": {
-		"@monacopilot/core": "workspace:*"
+		"@kareemkermad/monacopilot-core": "*"
 	},
 	"peerDependencies": {
 		"monaco-editor": ">=0.41.0"

@@ -20,6 +20,6 @@ Go to the [documentation](https://monacopilot.dev) to get started with Monacopil
 
 ## Contributing
 
-For guidelines on contributing, please read the [contributing guide](https://github.com/arshad-yaseen/monacopilot/blob/main/CONTRIBUTING.md).
+For guidelines on contributing, please read the [contributing guide](https://github.com/kareemkermad/monacopilot/blob/main/CONTRIBUTING.md).
 
 We welcome contributions from the community to enhance Monacopilot's capabilities and make it even more powerful. ❤️

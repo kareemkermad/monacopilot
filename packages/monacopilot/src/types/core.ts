@@ -6,7 +6,7 @@ import type {
 	Filename,
 	RelatedFile,
 	Technologies,
-} from '@monacopilot/core'
+} from '@kareemkermad/monacopilot-core'
 
 import type {
 	FetchCompletionItemHandler,
@@ -255,7 +255,7 @@ export interface CompletionRequestOptions {
 	 *
 	 * @param completionMetadata - Metadata about the current completion context
 	 * @returns A partial PromptData object that can override context and/or instruction
-	 * @see {@link https://github.com/arshad-yaseen/monacopilot/blob/main/packages/monacopilot/src/prompt.ts | Monacopilot default prompt implementation}
+	 * @see {@link https://github.com/kareemkermad/monacopilot/blob/main/packages/monacopilot/src/prompt.ts | Monacopilot default prompt implementation}
 	 */
 	customPrompt?: CustomPrompt<CompletionMetadata>
 	/**

@@ -14,7 +14,7 @@ export type {
 	Provider,
 	Model,
 	MistralModel,
-} from '@monacopilot/core'
+} from '@kareemkermad/monacopilot-core'
 
 export type {
 	CompletionMetadata,

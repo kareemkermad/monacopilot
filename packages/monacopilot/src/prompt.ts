@@ -1,4 +1,4 @@
-import type { PromptData } from '@monacopilot/core'
+import type { PromptData } from '@kareemkermad/monacopilot-core'
 
 import type { CompletionMetadata } from './types/core'
 import { joinWithAnd } from './utils/text'

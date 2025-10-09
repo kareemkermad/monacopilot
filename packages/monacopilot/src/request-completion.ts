@@ -1,4 +1,4 @@
-import type { Endpoint, RelatedFile } from '@monacopilot/core'
+import type { Endpoint, RelatedFile } from '@kareemkermad/monacopilot-core'
 
 import { DEFAULT_MAX_CONTEXT_LINES } from './defaults'
 import type { CompletionMetadata, CompletionResponse } from './types/core'

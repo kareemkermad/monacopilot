@@ -19,18 +19,18 @@ export default defineConfig({
 				items: [
 					{
 						text: 'Release Notes',
-						link: 'https://github.com/arshad-yaseen/monacopilot/releases',
+						link: 'https://github.com/kareemkermad/monacopilot/releases',
 					},
 					{
 						text: 'Contributing',
-						link: 'https://github.com/arshad-yaseen/monacopilot/blob/main/CONTRIBUTING.md',
+						link: 'https://github.com/kareemkermad/monacopilot/blob/main/CONTRIBUTING.md',
 					},
 				],
 			},
 		],
 		editLink: {
 			pattern:
-				'https://github.com/arshad-yaseen/monacopilot/edit/main/docs/:path',
+				'https://github.com/kareemkermad/monacopilot/edit/main/docs/:path',
 			text: 'Suggest changes to this page',
 		},
 		search: {
@@ -111,14 +111,14 @@ export default defineConfig({
 		socialLinks: [
 			{
 				icon: 'github',
-				link: 'https://github.com/arshad-yaseen/monacopilot',
+				link: 'https://github.com/kareemkermad/monacopilot',
 			},
 		],
 	},
 	head: [
 		['meta', { name: 'theme-color', content: '#ffffff' }],
 		['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }],
-		['meta', { name: 'author', content: 'Arshad Yaseen' }],
+		['meta', { name: 'author', content: 'Kareem Kermad' }],
 		['meta', { property: 'og:title', content: 'Monacopilot' }],
 		[
 			'meta',

@@ -1,6 +1,6 @@
 {
-	"name": "@monacopilot/core",
-	"version": "1.2.7",
+	"name": "@kareemkermad/monacopilot-core",
+	"version": "0.0.0",
 	"description": "Core package for monacopilot",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
@@ -18,16 +18,13 @@
 	"keywords": ["monacopilot", "monaco", "copilot", "core"],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/arshad-yaseen/monacopilot.git"
+		"url": "git+https://github.com/kareemkermad/monacopilot.git"
 	},
-	"homepage": "https://monacopilot.dev",
 	"maintainers": [
 		{
-			"name": "Arshad Yaseen",
-			"email": "m@arshadyaseen.com",
-			"url": "https://arshadyaseen.com"
+			"name": "Kareem Kermad"
 		}
 	],
 	"license": "MIT",
-	"author": "Arshad Yaseen <m@arshadyaseen.com> (https://arshadyaseen.com)"
+	"author": "Kareem Kermad"
 }

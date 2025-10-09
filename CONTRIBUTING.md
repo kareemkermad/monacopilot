@@ -34,7 +34,7 @@ playground/           # NextJS app for testing changes in real-time
 2. **Clone and Install**
 
     ```bash
-    git clone https://github.com/arshad-yaseen/monacopilot.git
+    git clone https://github.com/kareemkermad/monacopilot.git
     cd monacopilot
     pnpm install
     ```

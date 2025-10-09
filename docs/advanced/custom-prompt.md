@@ -98,4 +98,4 @@ copilot.complete({
 
 By using a custom prompt, you can guide the AI to complete your code in ways that better match your coding style, project requirements, or specific technologies you're working with.
 
-For additional `completionMetadata` needs, please [open an issue](https://github.com/arshad-yaseen/monacopilot/issues/new).
+For additional `completionMetadata` needs, please [open an issue](https://github.com/kareemkermad/monacopilot/issues/new).
